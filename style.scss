@@ -33,6 +33,17 @@ $bg: #fff;
 	position: relative;
 	ul {
 		list-style: none;
+		li {
+			&.current-menu-parent,
+			&.current-page-parent,
+			&.current_page_parent,
+			&.current-menu-item,
+			&.current_page_item {
+				&>a {
+					color: $accent;
+				}
+			}
+		}
 	}
 	a {
 		color: $color;
@@ -152,15 +163,6 @@ $bg: #fff;
 					    top: 50%;
 					    margin-top: -12px;
 					    right: 5px;
-					}
-				}
-				&.current-menu-parent,
-				&.current-page-parent,
-				&.current_page_parent,
-				&.current-menu-item,
-				&.current_page_item {
-					&>a {
-						color: $accent;
 					}
 				}
 				a {
