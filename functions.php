@@ -408,8 +408,8 @@ class rdTheme {
 			#site-header { background: {$background}; color: {$color}; }
 			#site-header a { color: {$color}; }
 			#site-header a:hover { color: {$accent}; }
-			#site-header #primary-menu ul li { padding-left: {$primary_menu_distance}px }
-			#site-header #primary-menu ul li.current-menu-parent > a, #site-header #primary-menu ul li.current-page-parent > a, #site-header #primary-menu ul li.current_page_parent > a, #site-header #primary-menu ul li.current-menu-item > a, #site-header #primary-menu ul li.current_page_item > a { color: {$accent}; }
+			#site-header #primary-menu ul li { padding-left: {$primary_menu_distance}px }  
+			#site-header ul li.current-menu-parent > a, #site-header ul li.current-page-parent > a, #site-header ul li.current_page_parent > a, #site-header ul li.current-menu-item > a, #site-header ul li.current_page_item > a { color: {$accent}; }
 			#site-header #primary-menu ul li ul { background: {$background} }
 			#site-header #top .secondary-menu ul li { padding-left: {$secondary_menu_distance}px; }
 			#site-header .rd-nav { background: {$background}; }
