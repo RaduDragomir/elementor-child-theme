@@ -62,8 +62,6 @@ class rdTheme {
 	public function init() {
 		register_nav_menu( 'top', 'Top Location' );
 	}
-
-
 	
 	public function customizer($wp_customize) {
 		// social links
@@ -421,7 +419,7 @@ class rdTheme {
 			#site-header #top { border-color: {$header_line_color}; padding-top: {$secondary_menu_padding}px;}
 			#site-header .open-menu .lines,
 			#site-header .open-menu .lines:before, 
-			#site-header .open-menu .lines:after { background: {$menu_icon_color}};
+			#site-header .open-menu .lines:after { background: {$menu_icon_color};}
 			@media (max-width: {$mobileBreakpoint}px) {
 				#site-header #logo img { width: {$logo_width_mobile}px; }
 			}
